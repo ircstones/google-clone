@@ -1,0 +1,298 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+	 outline: 1px solid black;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html
+{ 
+	outline: 1px solid black; 
+}
+
+div {
+  box-sizing: border-box;
+}
+
+#contain { 
+			width: auto;
+			height: auto;
+			margin: 0 auto;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			display: block;
+      font-family: arial,sans-serif;
+		}
+
+    /* HOVER */
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+a:visited {
+    text-decoration-color: black;
+}
+  /* END HOVER */
+
+.div_top {
+  /*border: 2px solid #949599;*/
+  border: none;
+  height: 75px;
+  width: auto;
+  margin: zero;
+  padding: 0px;
+}
+
+.div_top_m {
+  /*border: 2px solid #949599;*/
+   border: none;
+  height: 60px;
+  width: auto;
+  margin: zero;
+  padding: 0px;
+}
+
+.div_top_m img{
+  position: absolute;
+  top: 10px;
+  right: 27px;
+
+}
+
+/*.div_top_box {
+   border: none;
+  height: 45px;
+  width: auto;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: right;
+  display: inline;
+}
+*/
+
+.div_top_box a {
+  margin-bottom: 10px;
+}
+
+.div_top_box_y {
+  padding-left: 15px;  
+}
+
+.div_top_box img {
+  margin-left: 10px;
+}
+/**Top blue button**/
+
+.btn_b {
+  /*background: linear-gradient(#00adee, #0078a5);*/
+  background: -moz-linear-gradient(center top , #4387fd, #4683ea) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: medium none;
+  color: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/**NAV**/
+.nav {
+  text-align: right;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 4px;
+  vertical-align: top;
+  margin-top: 15px;
+  font-size: 12px;
+  position: relative;
+  right: 20px;
+}
+
+.nav li:first-child, li:nth-child(2), li:nth-child(3)
+{
+  padding-top: 10px;
+}
+
+.nav li:nth-child(4) 
+{
+ padding-top: 6px; 
+}
+
+.primary-nav {
+  font-size: 8px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  color: #333333;
+  /*font-family: Century Gothic, sans-serif;
+  text-transform: uppercase;*/
+}
+
+/*End NAV*/
+
+/**Bottom grey buttons**/
+
+.btn {
+ background: #EBEBE0;
+ cursor: pointer;
+ font-weight: normal;
+ width: 50px;
+ height: 20px;
+ display: inline;
+ position: relative;
+ }
+
+.g_btn {
+}
+
+.g_btn:hover {
+ border:1px solid #c6c6c4;
+ background: background: #f8f8f8;
+}
+
+.i_btn {
+ margin-left: 20px;
+}
+
+.div_mid_box {
+  height: 30px;
+  width:600px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.div_mid_box img {
+  height: 25px;
+}
+
+.div_mid_box input {
+    width: 575px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.div_space {
+  border: none;
+  height: 200px;
+  width: auto;
+  margin: zero;
+  padding: 0px;
+}
+
+.div_mid {
+  /*border: 2px solid #949599; */
+  border: none;
+  height: 100px;
+  width: auto;
+  margin: auto;
+  padding: 0px;
+}
+
+.div_mid img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div_mid_space {
+  border: 2px none;
+  height: 70px;
+  width: auto;
+  margin: zero;
+  padding: 0px;
+}
+
+.div_low_space {
+  border: 2px none;
+  height: 300px;
+  width: auto;
+  margin: zero;
+  padding: 0px;
+}
+
+.div_low_box {
+  /*border: 1px solid #949599;*/
+   border: none;
+  height: 45px;
+  width:auto;
+  margin-top: none;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.div_foot {
+  /*border: 2px solid #949599;*/
+   border: none;
+  height: 69px;
+  width: auto;
+  margin: zero;
+  padding: 0px;
+  bottom:0;
+}
+
+.div_foot textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 
